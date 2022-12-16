@@ -1,0 +1,17 @@
+import pydicom
+
+import numpy as np
+
+import cv2
+
+import os
+
+import matplotlib.pyplot as plt
+
+
+
+file_path = "ID_000039fa0.dcm"
+
+output_path = "./"
+
+medical_image = pydicom.read_file(file_path)
